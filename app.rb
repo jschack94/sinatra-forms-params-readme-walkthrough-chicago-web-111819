@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   params = {
-    :name => "Cark",
+    :name => "Carl",
     :favorite_food => "fried chicken"
   }
   post '/food' do
